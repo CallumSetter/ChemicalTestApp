@@ -28,6 +28,7 @@ namespace ChemicalTestApp
                 "For Alcohol Press 3\n");
 
             // Make sure the user only enters the digits 1, 2 or 3 rather than any other number or type of input i.e. letters or symbols
+            // This will be done by creating a catch so when a number is not 
             
             string MyInput = "0";
             int MyInt = 0;
@@ -55,11 +56,10 @@ namespace ChemicalTestApp
 
 
 
-            //Add the chemical that is being tested
 
 
-
-            //Measure the number of live germs
+            //Add the chemical that is being tested and measure the number of live germs
+            
 
             Random randGen = new Random();
 

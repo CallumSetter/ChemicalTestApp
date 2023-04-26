@@ -1,5 +1,4 @@
-﻿//Imports
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace ChemicalTestApp
@@ -159,7 +158,5 @@ namespace ChemicalTestApp
                 //Record the data and determine the least and most efficient chemical
             }
         }
-
-
     }
 }
